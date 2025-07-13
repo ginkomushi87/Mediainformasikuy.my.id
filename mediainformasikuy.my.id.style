@@ -1,0 +1,506 @@
+</style>
+<s<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='strm.xml' b:templateVersion='1.0.1' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1344261807981324'/>
+  <head>
+   
+
+   <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-WDTRXVWJ&#39;);</script>
+<!-- End Google Tag Manager -->
+   
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+
+
+    <b:skin version='1.0.1'><![CDATA[/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+/*
+<!-- Constants -->
+
+<Variable name="damionRegular36" description="Damion Regular 36" type="font" default="400 36px Damion, cursive" hideEditor="true"  value="400 36px Damion, cursive"/>
+<Variable name="damionRegular62" description="Damion Regular 62" type="font" default="400 62px Damion, cursive" hideEditor="true"  value="400 62px Damion, cursive"/>
+<Variable name="playfairDisplayBlack28" description="Playfair Display Black 28" type="font" default="900 28px Playfair Display, serif" hideEditor="true"  value="900 28px Playfair Display, serif"/>
+<Variable name="playfairDisplayBlack36" description="Playfair Display Black 36" type="font" default="900 36px Playfair Display, serif" hideEditor="true"  value="900 36px Playfair Display, serif"/>
+<Variable name="playfairDisplayBlack44" description="Playfair Display Black 44" type="font" default="900 44px Playfair Display, serif" hideEditor="true"  value="900 44px Playfair Display, serif"/>
+<Variable name="robotoNormal15" description="Roboto Normal 15" type="font" default="15px Roboto, sans-serif" hideEditor="true"  value="15px Roboto, sans-serif"/>
+<Variable name="robotoNormal16" description="Roboto Normal 16" type="font" default="16px Roboto, sans-serif" hideEditor="true"  value="16px Roboto, sans-serif"/>
+<Variable name="robotoLightItalic15" description="Roboto Light Italic 15" type="font" default="italic 300 15px Roboto, sans-serif" hideEditor="true"  value="italic 300 15px Roboto, sans-serif"/>
+<Variable name="robotoBold22" description="Roboto Bold 22" type="font" default="bold 22px Roboto, sans-serif" hideEditor="true"  value="bold 22px Roboto, sans-serif"/>
+<Variable name="robotoBold30" description="Roboto Bold 30" type="font" default="bold 30px Roboto, sans-serif" hideEditor="true"  value="bold 30px Roboto, sans-serif"/>
+<Variable name="robotoBold45" description="Roboto Bold 45" type="font" default="bold 45px Roboto, sans-serif" hideEditor="true"  value="bold 45px Roboto, sans-serif"/>
+
+<!-- Variable definitions -->
+
+<Variable name="keycolor" description="Main Color" type="color" default="#2196f3"  value="#000000"/>
+<Variable name="startSide" description="Start side in blog language" type="automatic" default="left" hideEditor="true" />
+<Variable name="endSide" description="End side in blog language" type="automatic" default="right" hideEditor="true" />
+
+<Group description="Page Text">
+  <Variable name="body.text.font" description="Font"
+      type="font"
+      default="$(robotoNormal15)"  value="normal normal 15px &#39;Trebuchet MS&#39;, Trebuchet, sans-serif"/>
+  <Variable name="body.text.color" description="Color"
+      type="color"
+      default="#757575"  value="#000000"/>
+</Group>
+
+<Group description="Backgrounds">
+  <Variable name="body.background.height" description="Background height"
+      type="length"
+      min="420px"
+      max="640px"
+      default="480px"  value="480px"/>
+  <Variable name="body.background" description="Background"
+      color="$(body.background.color)"
+      type="background"
+      default="$(color) none repeat scroll top left"  value="$(color) none repeat scroll top left"/>
+  <Variable name="body.background.shadow" description="Background overlay shadow"
+      type="color"
+      default="rgba(0,0,0,.26)"  value="rgba(0,0,0,0)"/>
+  <Variable name="body.background.color" description="Body background color"
+      type="color"
+      default="#eee"  value="#ededed"/>
+  <Variable name="posts.background.color" description="Post background color"
+      type="color"
+      default="#fff"  value="#ffffff"/>
+  <Variable name="body.background.blur" description="Background blur"
+      type="length"
+      min="0px"
+      max="50px"
+      default="0px"  value="0px"/>
+</Group>
+
+<Group description="Links">
+  <Variable name="body.link.color" description="Link color"
+      type="color"
+      default="#2196f3"  value="#000000"/>
+  <Variable name="body.link.visited.color" description="Visited link color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+  <Variable name="body.link.hover.color" description="Link Hover Color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+</Group>
+
+<Group description="Blog title" selector="div.widget.Header">
+  <Variable name="blog.title.font" description="Font"
+      type="font"
+      default="$(robotoBold45)"  value="normal bold 45px &#39;Trebuchet MS&#39;, Trebuchet, sans-serif"/>
+  <Variable name="blog.title.color" description="Color"
+      type="color"
+      default="#fff"  value="#000000"/>
+  <Variable name="header.icons.color"
+      description="Background icons color"
+      type="color"
+      default="#fff"  value="#000000"/>
+</Group>
+
+<Group description="Tabs text" selector="div.widget.PageList">
+  <Variable name="tabs.font" description="Font"
+      type="font"
+      family="$(robotoNormal15.family)"
+      size="$(robotoNormal15.size)"
+      default="700 normal $(size) $(family)"  value="normal 700 100% &#39;Trebuchet MS&#39;, Trebuchet, sans-serif"/>
+  <Variable name="tabs.color" description="Text color"
+      type="color"
+      default="#ccc"  value="#4e4e4e"/>
+  <Variable name="tabs.selected.color" description="Selected color"
+      type="color"
+      default="#fff"  value="#000000"/>
+  <Variable name="tabs.overflow.background.color" description="Popup background color"
+      type="color"
+      default="$(posts.background.color)"  value="#ffffff"/>
+  <Variable name="tabs.overflow.color" description="Popup text color"
+      type="color"
+      default="$(posts.text.color)"  value="#000000"/>
+  <Variable name="tabs.overflow.selected.color" description="Popup selected color"
+      type="color"
+      default="$(posts.title.color)"  value="#000000"/>
+</Group>
+
+<Group description="Posts" selector="div.widget.Blog">
+  <Variable name="posts.title.color" description="Post title color"
+      type="color"
+      default="#424242"  value="#000000"/>
+  <Variable name="posts.title.font" description="Post title font"
+      type="font"
+      default="$(robotoBold22)"  value="bold 22px Roboto, sans-serif"/>
+  <Variable name="posts.stream.title.font" description="Post title stream font"
+      type="font"
+      default="$(robotoBold30)"  value="bold 30px Roboto, sans-serif"/>
+  <Variable name="posts.text.font" description="Post text font"
+      type="font"
+      default="$(body.text.font)"  value="normal normal 15px &#39;Trebuchet MS&#39;, Trebuchet, sans-serif"/>
+  <Variable name="posts.text.color" description="Post text color"
+      type="color"
+      default="$(body.text.color)"  value="#000000"/>
+  <Variable name="posts.byline.color" description="Post byline color"
+      type="color"
+      default="rgba(0, 0, 0, 0.54)"  value="rgba(0,0,0,0.537)"/>
+  <Variable name="blockquote.font" description="Blockquote font"
+      type="font"
+      default="$(robotoLightItalic15)"  value="italic 300 15px Roboto, sans-serif"/>
+  <Variable name="blockquote.color" description="Blockquote color"
+      type="color"
+      default="#444"  value="#000000"/>
+  <Variable name="posts.icons.color"
+      description="Post icons color"
+      type="color"
+      default="#707070"  value="#414141"/>
+  <Variable name="posts.boxshadow.color" description="Post box shadow color"
+      type="color"
+      default="rgba(0, 0, 0, 0)"  value="rgba(0,0,0,0.298)"/>
+</Group>
+
+<Group description="Search">
+  <Variable name="search.input.color" description="Input color"
+      type="color"
+      default="$(blog.title.color)"  value="#000000"/>
+  <Variable name="search.input.font" description="Input font"
+      type="font"
+      default="$(robotoNormal16)"  value="16px Roboto, sans-serif"/>
+  <Variable name="search.placeholder.color" description="Placeholder text color"
+      type="color"
+      default="$(blog.title.color)"  value="#000000"/>
+</Group>
+
+<Group description="Sharing">
+  <Variable name="sharing.background.color"
+      description="Sharing background color"
+      type="color"
+      default="$(posts.background.color)"  value="#ffffff"/>
+  <Variable name="sharing.text.color" description="Sharing text color"
+      type="color"
+      default="$(posts.title.color)"  value="#000000"/>
+  <Variable name="sharing.icons.color"
+      description="Sharing icons color"
+      type="color"
+      default="$(sharing.text.color)"  value="#000000"/>
+</Group>
+
+<Group description="Popular posts" selector="div.widget.PopularPosts">
+  <Variable name="popularposts.background.color"
+      description="Popular post background color"
+      type="color"
+      default="$(body.background.color)"  value="#ededed"/>
+  <Variable name="popularposts.byline.color"
+      description="Popular post byline color"
+      type="color"
+      default="$(posts.byline.color)"  value="rgba(0,0,0,0.537)"/>
+  <Variable name="popularposts.title.color"
+      description="Popular post title color"
+      type="color"
+      default="$(posts.title.color)"  value="#000000"/>
+  <Variable name="popularposts.text.color"
+      description="Popular post text color"
+      type="color"
+      default="$(posts.text.color)"  value="#000000"/>
+  <Variable name="popularposts.link.color"
+      description="Popular post link color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+</Group>
+
+<Group description="Post navigation" selector='div.blog-pager'>
+  <Variable name="posts.navigation.link.color"
+      description="Post navigation links color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+  <Variable name="posts.navigation.link.visited.color"
+      description="Post navigation links visited color"
+      type="color"
+      default="$(body.link.visited.color)"  value="#000000"/>
+  <Variable name="posts.navigation.link.hover.color"
+      description="Post navigations links hover color"
+      type="color"
+      default="$(body.link.hover.color)"  value="#000000"/>
+</Group>
+
+<Group description="Sidebar" selector="div.sidebar-container">
+  <Variable name="sidebar.backgroundColorTop"
+      description="Background color (Top)"
+      type="color"
+      default="#f7f7f7"  value="#f1f1f1"/>
+  <Variable name="sidebar.backgroundColorTopHD"
+      description="Background color (Top) - HD"
+      type="color"
+      default="rgba(255, 255, 255, 1)"  value="#ffffff"/>
+  <Variable name="sidebar.backgroundColorBottom"
+      description="Background color (Bottom)"
+      type="color"
+      default="#fff"  value="#ffffff"/>
+  <Variable name="sidebar.separator.color"
+      description="Separator color"
+      type="color"
+      default="#ccc"  value="#c2c2c2"/>
+  <Variable name="widget.title.color"
+      description="Gadget title color"
+      type="color"
+      default="#424242"  value="#000000"/>
+  <Variable name="sidebar.icons.color"
+      description="Sidebar icons color"
+      type="color"
+      default="#707070"  value="#414141"/>
+</Group>
+
+<Group description="Author profile" selector='.widget.Profile'>
+  <Variable name="profile.title.color" description="Profile title color"
+      type="color"
+      default="rgba(0,0,0,0.52)"  value="rgba(0,0,0,0.518)"/>
+  <Variable name="profile.text.color" description="Profile text color"
+      type="color"
+      default="rgba(0, 0, 0, 0.54)"  value="rgba(0,0,0,0.537)"/>
+  <Variable name="profile.link.color" description="Profile link color"
+      type="color"
+      default="$(posts.title.color)"  value="#000000"/>
+</Group>
+
+<Group description="Labels" selector=".widget.Label">
+  <Variable name="labels.text.color"
+      description="Label text color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+  <Variable name="labels.background.color"
+      description="Label background color"
+      type="color"
+      red="$(labels.text.color.red)"
+      green="$(labels.text.color.green)"
+      blue="$(labels.text.color.blue)"
+      default="rgba($red, $green, $blue, 0.05)"  value="#f1f1f1"/>
+</Group>
+
+<Group description="Attribution" selector=".widget.Attribution">
+  <Variable name="attribution.text.color" description="Attribution text color"
+      type="color"
+      default="$(body.text.color)"  value="#000000"/>
+  <Variable name="attribution.link.color" description="Attribution link color"
+      type="color"
+      default="$(body.link.color)"  value="#000000"/>
+  <Variable name="attribution.icon.color" description="Attribution icon color"
+      type="color"
+      default="#707070"
+      hideEditor="true"  value="#414141"/>
+</Group>
+
+<Group description="Widths">
+  <Variable name="sidebar.width" description="Sidebar width" type="length"
+            min="100px" max="1000px" default="284px"  value="284px"/>
+  <Variable name="content.width" description="Content width" type="length"
+            min="600px" max="2400px" default="922px"  value="922px"/>
+  <Variable name="content.margin" description="Content margin" type="length"
+            min="0px" max="1000px" default="117px"  value="117px"/>
+</Group>
+*/
+
+/*!************************************************
+ * Blogger Template Style
+ * Name: Essential
+ **************************************************/
+body{
+overflow-wrap:break-word;
+word-break:break-word;
+word-wrap:break-word
+}
+.hidden{
+display:none
+}
+.invisible{
+visibility:hidden
+}
+.container:after,.float-container:after{
+clear:both;
+content:"";
+display:table
+}
+.clearboth{
+clear:both
+}
+#comments .comment .comment-actions,.subscribe-popup .FollowByEmail .follow-by-email-submit,.widget.Profile .profile-link,.widget.Profile .profile-link.visit-profile{
+background:transparent;
+border:0;
+box-shadow:none;
+color:$(body.link.color);
+cursor:pointer;
+font-size:14px;
+font-weight:700;
+outline:none;
+text-decoration:none;
+text-transform:uppercase;
+width:auto
+}
+.dim-overlay{
+height:100vh;
+left:0;
+position:fixed;
+top:0;
+width:100%
+}
+#sharing-dim-overlay{
+background-color:transparent
+}
+input::-ms-clear{
+display:none
+}
+.blogger-logo,.svg-icon-24.blogger-logo{
+fill:#ff9800;
+opacity:1
+}
+.loading-spinner-large{
+-webkit-animation:mspin-rotate 1568.63ms linear infinite;
+animation:mspin-rotate 1568.63ms linear infinite;
+height:48px;
+overflow:hidden;
+position:absolute;
+width:48px;
+z-index:200
+}
+.loading-spinner-large>div{
+-webkit-animation:mspin-revrot 5332ms steps(4) infinite;
+animation:mspin-revrot 5332ms steps(4) infinite
+}
+.loading-spinner-large>div>div{
+-webkit-animation:mspin-singlecolor-large-film 1333ms steps(81) infinite;
+animation:mspin-singlecolor-large-film 1333ms steps(81) infinite;
+background-size:100%;
+height:48px;
+width:3888px
+}
+.mspin-black-large>div>div,.mspin-grey_54-large>div>div{
+background-image:url(https://www.blogblog.com/indie/mspin_black_large.svg)
+}
+.mspin-white-large>div>div{
+background-image:url(https://www.blogblog.com/indie/mspin_white_large.svg)
+}
+.mspin-grey_54-large{
+opacity:.54
+}
+@-webkit-keyframes mspin-singlecolor-large-film{
+0%{
+-webkit-transform:translateX(0);
+transform:translateX(0)
+}
+to{
+-webkit-transform:translateX(-3888px);
+transform:translateX(-3888px)
+}
+}
+@keyframes mspin-singlecolor-large-film{
+0%{
+-webkit-transform:translateX(0);
+transform:translateX(0)
+}
+to{
+-webkit-transform:translateX(-3888px);
+transform:translateX(-3888px)
+}
+}
+@-webkit-keyframes mspin-rotate{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+to{
+-webkit-transform:rotate(1turn);
+transform:rotate(1turn)
+}
+}
+@keyframes mspin-rotate{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+to{
+-webkit-transform:rotate(1turn);
+transform:rotate(1turn)
+}
+}
+@-webkit-keyframes mspin-revrot{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+to{
+-webkit-transform:rotate(-1turn);
+transform:rotate(-1turn)
+}
+}
+@keyframes mspin-revrot{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+to{
+-webkit-transform:rotate(-1turn);
+transform:rotate(-1turn)
+}
+}
+.skip-navigation{
+background-color:#fff;
+box-sizing:border-box;
+color:#000;
+display:block;
+height:0;
+left:0;
+line-height:50px;
+overflow:hidden;
+padding-top:0;
+position:fixed;
+text-align:center;
+top:0;
+-webkit-transition:box-shadow .3s,height .3s,padding-top .3s;
+transition:box-shadow .3s,height .3s,padding-top .3s;
+width:100%;
+z-index:900
+}
+.skip-navigation:focus{
+box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+height:50px
+}
+#main{
+outline:none
+}
+.main-heading{
+position:absolute;
+clip:rect(1px,1px,1px,1px);
+padding:0;
+border:0;
+height:1px;
+width:1px;
+overflow:hidden
+}
+.Attribution{
+margin-top:1em;
+text-align:center
+}
+.Attribution .blogger img,.Attribution .blogger svg{
+vertical-align:bottom
+}
+.Attribution .blogger img{
+margin-$endSide:.5em
+}
+.Attribution div{
+line-height:24px;
+margin-top:.5em
+}
+.Attribution .copyright,.Attribution .image-attribution{
+font-size:.7em;
+margin-top:1.5em
+}
+.BLOG_mobile_video_class{
+display:none
+}
+.bg-photo{
+background-attachment:scroll!important
+}
+body .CSS_LIGHTBOX{
+z-index:900
+}
+.extendable .show-less,.extendable .show-more{
+border-color:$(body.link.color);
+color:$(body.link

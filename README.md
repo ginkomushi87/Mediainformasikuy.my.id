@@ -1,1 +1,1 @@
-# www.Mediainformasikuy.my.id/
+# www.Mediainformasikuy.my.id
